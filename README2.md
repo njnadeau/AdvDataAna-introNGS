@@ -21,11 +21,11 @@ Here are some websites that it is useful to have on hand (you might want to book
 
 Linux and Shell cheatsheet (it's not cheating!): http://rcg.group.shef.ac.uk/courses/linux/shell-cheatsheet.html
 
-CiCS page on using the ShARC cluster: https://www.sheffield.ac.uk/cics/research/hpc/sharc
+Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
 
-CiCS page on interactive useage of the cluster: https://www.sheffield.ac.uk/cics/research/hpc/using/interactive
+IT services page on interactive useage of the cluster: https://www.sheffield.ac.uk/cics/research/hpc/using/interactive
 
-CiCS page on submitting jobs to the cluster (more on his later): https://www.sheffield.ac.uk/cics/research/hpc/sharc/batch
+IT services page on submitting jobs to the cluster (more on his later): https://www.sheffield.ac.uk/cics/research/hpc/sharc/batch
 
 Documentation on file storage on ShARC http://docs.iceberg.shef.ac.uk/en/latest/hpc/filestore.html
 
@@ -37,7 +37,7 @@ To access sharc from off-campus you may need to connect to the University's vpn.
 Instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
 
 #### Logging in and getting started
-We will be working on windows machines, which means that you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"SSH" and enter
+If you are working on a Windows machine you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"SSH" and enter
 ```
 sharc.sheffield.ac.uk
 ```
@@ -62,7 +62,8 @@ This tutorial relies on having access to a number of programs. The easiest way i
   Your account is set up to use the Genomics Software Repository
      More info: http://soria-carrasco.staff.shef.ac.uk/softrepo
 ```
-If you don't get that message, follow the instructions [here](http://soria-carrasco.staff.shef.ac.uk/softrepo/) to set up your account.
+The first excerises go though setting this up, but if you want to skip these, or if you have been through them and still don't get this message then
+, follow the instructions [here](http://soria-carrasco.staff.shef.ac.uk/softrepo/) to set up your account.
 
 In addition, if you want to configure the ```nano``` text editor to have syntax highlighting and line numbering, you can configure it this way:
 ```bash
