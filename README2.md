@@ -1,14 +1,14 @@
 # Advanced Data Analysis - Introduction to NGS data analysis
 ## Department of Animal and Plant Sciences, University of Sheffield
-#### Nicola Nadeau, Alison Wright, Helen Hipperson
+#### Nicola Nadeau, Alison Wright
 
-The aim of this course is to give an introduction to handling NGS sequence data on the UoS HPC cluster (ShARC) and to some of the analyses you might want to do including investigating gene expression and nucleotide variation (SNPs).
+The aim of this course is to give an introduction to handling NGS sequence data on the UoS HPC cluster (ShARC) and to some of the analyses you might want to do focussing on investigating gene expression.
 
 
-## Schedule 2019/2020
+## Schedule 2021
 
-| Content | Date | Session | Venue | Lead | TAs |
-| ------- | ---- | ------- | ----- | ---- | --- |
+| Content | Date | Session | Lead | TAs |
+| ------- | ---- | ------- | ---- | --- |
 | [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 02/03/2020 | Morning (9-12) | ADB - A04 (Perak) | Nicola Nadeau | Thea Rogers, Jake Pepper, Naomi Cox |
 | [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Mon 02/03/2020 | Morning (9-12) | ADB - A04 (Perak) | Nicola Nadeau | Thea Rogers, Jake Pepper, Naomi Cox |
 | [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Mon 02/03/2020  | Afternoon (2-5) | ADB - A04 (Perak) | Alison Wright | Thea Rogers, Jake Pepper, Naomi Cox |
@@ -34,9 +34,7 @@ The genomics software repository: http://soria-carrasco.staff.shef.ac.uk/softrep
 #### Working off-campus
 To access sharc from off-campus you may need to connect to the University's vpn. 
 
-If you haven't used the vpn before you will first need to get a remote access password (not the same as your usual account password), which you can do from here: https://www.sheffield.ac.uk/it-services/password/
-
-You should then follow the instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
+Instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
 
 #### Logging in and getting started
 We will be working on windows machines, which means that you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"SSH" and enter
