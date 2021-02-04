@@ -23,12 +23,6 @@ Linux and Shell cheatsheet (it's not cheating!): http://rcg.group.shef.ac.uk/cou
 
 Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
 
-IT services page on interactive useage of the cluster: https://www.sheffield.ac.uk/cics/research/hpc/using/interactive
-
-IT services page on submitting jobs to the cluster (more on his later): https://www.sheffield.ac.uk/cics/research/hpc/sharc/batch
-
-Documentation on file storage on ShARC http://docs.iceberg.shef.ac.uk/en/latest/hpc/filestore.html
-
 The genomics software repository: http://soria-carrasco.staff.shef.ac.uk/softrepo/
 
 #### Working off-campus
