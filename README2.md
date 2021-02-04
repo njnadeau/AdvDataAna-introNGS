@@ -7,13 +7,13 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 
 ## Schedule 2021
 
-| Content | Date | Session | Lead | TAs |
-| ------- | ---- | ------- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 02/03/2020 | Morning (9-12) | ADB - A04 (Perak) | Nicola Nadeau | Thea Rogers, Jake Pepper, Naomi Cox |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Mon 02/03/2020 | Morning (9-12) | ADB - A04 (Perak) | Nicola Nadeau | Thea Rogers, Jake Pepper, Naomi Cox |
-| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Mon 02/03/2020  | Afternoon (2-5) | ADB - A04 (Perak) | Alison Wright | Thea Rogers, Jake Pepper, Naomi Cox |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Wed 04/03/2020  | Afternoon (2-5pm) | ADB - A04 (Perak) | Alison Wright | Thea Rogers, Jake Pepper, Naomi Cox |
-| [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Fri 06/03/2020 | Afternoon (2-5pm) | ADB - A04 (Perak) | Helen Hipperson | Thea Rogers, Jake Pepper, Naomi Cox |
+| Content | Date | Lead | TAs |
+| ------- | ---- | ---- | --- |
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 15/02/2021 | Nicola Nadeau | Jake Pepper, Victoria Lloyd |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Mon 15/02/2021 | Nicola Nadeau | Jake Pepper, Victoria Lloyd |
+| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Tues 16/02/2021  | Alison Wright | Jake Pepper, Victoria Lloyd |
+| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Wed 17/02/2021  | Alison Wright | Jake Pepper, Victoria Lloyd |
+| [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
 
 ### General notes
