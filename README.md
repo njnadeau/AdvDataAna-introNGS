@@ -82,7 +82,7 @@ rsync myuser@iceberg.sheffield.ac.uk:/data/myuser/gwas_gemma/output/hyperparamet
 rsync -av myuser@iceberg.sheffield.ac.uk:/data/myuser/gwas_gemma/output ./
 ```
 
-Other graphical alternatives are [WinSCP](http://dsavas.staff.shef.ac.uk/software/xconnect/winscp.html), [Filezilla](https://filezilla-project.org/) or [Cyberduck](http://www.macupdate.com/app/mac/8392/cyberduck). You can find more detailed information [here](https://www.sheffield.ac.uk/wrgrid/using/access).
+Other graphical alternatives are [WinSCP](http://dsavas.staff.shef.ac.uk/software/xconnect/winscp.html), [Filezilla](https://filezilla-project.org/) or [Cyberduck](http://www.macupdate.com/app/mac/8392/cyberduck). You can find more detailed information [here](https://www.sheffield.ac.uk/it-services/research/hpc/using/access).
 
 ***
 
