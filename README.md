@@ -49,11 +49,12 @@ This node is just a gateway to the worker nodes. If you are on a worker node you
 ```
 [bo1nn@sharc-node004 ~]$
 ```
+***
 #### Accessing reserved training resources on Sharc
 ***
 If you find you are waiting a long time for your jobs to start running or to get access to an interactive session you can try the following:
 For interactive sessions
-```
+```bash
 qrsh -P training -q training.q
 ```
 For batch jobs, add the following to the header section of your batch job file
