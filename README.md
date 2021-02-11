@@ -49,7 +49,8 @@ This node is just a gateway to the worker nodes. If you are on a worker node you
 ```
 [bo1nn@sharc-node004 ~]$
 ```
-#### Accessing researved training resources on Sharc
+#### Accessing reserved training resources on Sharc
+***
 If you find you are waiting a long time for your jobs to start running or to get access to an interactive session you can try the following:
 For interactive sessions
 ```
@@ -60,6 +61,7 @@ For batch jobs, add the following to the header section of your batch job file
 #$ -P training
 #$ -q training.q
 ```
+***
 #### Important note
 ***
 This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```qrsh```:
