@@ -25,6 +25,9 @@ Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hp
 
 The genomics software repository: http://soria-carrasco.staff.shef.ac.uk/softrepo/
 
+Intro to Unix: https://swcarpentry.github.io/shell-novice/
+Intro to Unix: http://evomics.org/learning/unix-tutorial/
+
 #### Working off-campus
 To access sharc from off-campus you may need to connect to the University's vpn. 
 
