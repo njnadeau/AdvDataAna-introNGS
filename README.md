@@ -23,8 +23,6 @@ Linux and Shell cheatsheet (it's not cheating!): http://rcg.group.shef.ac.uk/cou
 
 Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
 
-The genomics software repository: http://soria-carrasco.staff.shef.ac.uk/softrepo/
-
 #### Working off-campus
 To access sharc from off-campus you may need to connect to the University's vpn. 
 
