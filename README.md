@@ -9,10 +9,10 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 15/02/2021 | Nicola Nadeau | Jake Pepper, Victoria Lloyd |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 16/02/2021 | Nicola Nadeau | Jake Pepper, Victoria Lloyd |
-| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Wed 17/02/2021  | Alison Wright | Jake Pepper, Victoria Lloyd |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Fri 19/02/2021  | Alison Wright | Jake Pepper, Victoria Lloyd |
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 21/02/2022 | Nicola Nadeau | Peter Price, Victoria Lloyd |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 22/02/2022 | Nicola Nadeau | Peter Price, Victoria Lloyd |
+| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Thur 24/02/2022  | Alison Wright | Peter Price, Victoria Lloyd |
+| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Fri 25/02/2022  | Alison Wright | Peter Price, Victoria Lloyd |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
 
@@ -22,8 +22,6 @@ Here are some websites that it is useful to have on hand (you might want to book
 Linux and Shell cheatsheet (it's not cheating!): http://rcg.group.shef.ac.uk/courses/linux/shell-cheatsheet.html
 
 Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
-
-The genomics software repository: http://soria-carrasco.staff.shef.ac.uk/softrepo/
 
 #### Working off-campus
 To access sharc from off-campus you may need to connect to the University's vpn. 
@@ -68,10 +66,9 @@ For batch jobs, add the following to the header section of your batch job file
 This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```qrsh```:
 ```
   Your account is set up to use the Genomics Software Repository
-     More info: http://soria-carrasco.staff.shef.ac.uk/softrepo
+  To see a list of installed software type the command: softrepo
 ```
-The first excerises go though setting this up, but if you want to skip these, or if you have been through them and still don't get this message then
-, follow the instructions [here](http://soria-carrasco.staff.shef.ac.uk/softrepo/) to set up your account.
+The first excerises go though setting this up.
 
 In addition, if you want to configure the ```nano``` text editor to have syntax highlighting and line numbering, you can configure it this way:
 ```bash
