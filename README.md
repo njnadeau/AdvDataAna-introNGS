@@ -9,10 +9,10 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 21/02/2022 | Nicola Nadeau | Peter Price, Victoria Lloyd |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 22/02/2022 | Nicola Nadeau | Peter Price, Victoria Lloyd |
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 21/02/2022 | Nicola Nadeau | Peter Price, Tien Nguyen |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 22/02/2022 | Nicola Nadeau | Peter Price, Tien Nguyen |
 | [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Thur 24/02/2022  | Alison Wright | Peter Price, Victoria Lloyd |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Fri 25/02/2022  | Alison Wright | Peter Price, Victoria Lloyd |
+| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | Alison Wright |  |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
 
