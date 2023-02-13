@@ -5,14 +5,14 @@
 The aim of this course is to give an introduction to handling NGS sequence data on the UoS HPC cluster (ShARC) and to some of the analyses you might want to do focussing on investigating gene expression.
 
 
-## Schedule 2021
+## Schedule 2023
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 21/02/2022 | Nicola Nadeau | Peter Price, Tien Nguyen |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 22/02/2022 | Nicola Nadeau | Peter Price, Tien Nguyen |
-| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Thur 24/02/2022  | Alison Wright | Peter Price, Victoria Lloyd |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | Alison Wright |  |
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 20/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 21/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
+| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Fri 24/02/2023  | Nicola Nadeau | Peter Price, Tien Nguyen, Victoria Lloyd |
+| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | |  |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
 
@@ -53,12 +53,12 @@ This node is just a gateway to the worker nodes. If you are on a worker node you
 If you find you are waiting a long time for your jobs to start running or to get access to an interactive session you can try the following:
 For interactive sessions
 ```bash
-qrshx -P ressexcon -q ressexcon.q
+qrshx -P ngscourse -q ngscourse.q
 ```
 For batch jobs, add the following to the header section of your batch job file
 ```
-#$ -P ressexcon
-#$ -q ressexcon.q
+#$ -P ngscourse
+#$ -q ngscourse.q
 ```
 ***
 #### Important note
