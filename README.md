@@ -11,7 +11,7 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 | ------- | ---- | ---- | --- |
 | [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 20/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
 | [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 21/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
-| [Aligning Illumina RNA-seq data](https://github.com/alielw/APS-NGS-day2-AM/blob/master/README.md) | Fri 24/02/2023  | Nicola Nadeau | Peter Price, Tien Nguyen, Victoria Lloyd |
+| [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 24/02/2023  | Nicola Nadeau | Peter Price, Tien Nguyen, Victoria Lloyd |
 | [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | |  |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
