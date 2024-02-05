@@ -5,7 +5,7 @@
 The aim of this course is to give an introduction to handling NGS sequence data on the UoS HPC cluster (ShARC) and to some of the analyses you might want to do focussing on investigating gene expression.
 
 
-## Schedule 2023
+## Schedule 2024
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
