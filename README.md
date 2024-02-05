@@ -9,9 +9,9 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 20/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 21/02/2023 | Nicola Nadeau | Peter Price, Tien Nguyen |
-| [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 24/02/2023  | Nicola Nadeau | Peter Price, Tien Nguyen, Victoria Lloyd |
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 19/02/2024 | Nicola Nadeau, Alison Wright | Noah Bourne, Cat Collins |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Wed 21/02/2024 | Nicola Nadeau, Alison Wright | Noah Bourne, Cat Collins |
+| [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 23/02/2023  | Nicola Nadeau | Noah Bourne, Cat Collins |
 | [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | |  |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
 
@@ -19,7 +19,7 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 ### General notes
 Here are some websites that it is useful to have on hand (you might want to bookmark these so you can easily go back to them)
 
-Linux and Shell cheatsheet (it's not cheating!): http://rcg.group.shef.ac.uk/courses/linux/shell-cheatsheet.html
+UNIX tutorial: https://swcarpentry.github.io/shell-novice/
 
 Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
 
