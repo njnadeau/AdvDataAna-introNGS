@@ -29,23 +29,23 @@ To access sharc from off-campus you may need to connect to the University's vpn.
 Instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
 
 #### Logging in and getting started
-If you are working on a Windows machine you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"SSH" and enter
+If you are working on a Windows machine you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"New session">"SSH" and enter
 ```
-sharc.sheffield.ac.uk
+bessemer.shef.ac.uk
 ```
-in the "Remote host" box and specify your username (port should always be 22).
+specify your username (port should always be 22).
 
-Request an interactive session:
+Access a worker node:
 ```bash
-qrsh
+srun --pty bash -l
 ```
 You should always start by doing this. No work should ever be done on the head node! If you are on a head node you will see someting like this in your command line prompt:
 ```
-[bo1nn@sharc-login1 ~]$
+[bo1nn@bessemer-login1 ~]$
 ```
 This node is just a gateway to the worker nodes. If you are on a worker node you will see the name of the node, eg.
 ```
-[bo1nn@sharc-node004 ~]$
+[bo1nn@bessemer-node004 ~]$
 ```
 ***
 #### Accessing reserved training resources on Sharc
