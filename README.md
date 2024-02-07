@@ -72,7 +72,7 @@ The first excerises go though setting this up.
 
 In addition, if you want to configure the ```nano``` text editor to have syntax highlighting and line numbering, you can configure it this way:
 ```bash
-cat /usr/local/extras/Genomics/workshops/January2018/.nanorc >> /home/$USER/.nanorc
+cat /shared/genomicsdb2/shared/workshops/January2018/.nanorc >> /home/$USER/.nanorc
 ```
 ***
 
