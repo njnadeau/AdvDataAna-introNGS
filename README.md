@@ -66,7 +66,6 @@ For batch jobs, add the following to the header section of your batch job file
 This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```qrsh```:
 ```
   Your account is set up to use the Genomics Software Repository
-  To see a list of installed software type the command: softrepo
 ```
 The first excerises go though setting this up.
 
