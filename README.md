@@ -24,7 +24,7 @@ UNIX tutorial: https://swcarpentry.github.io/shell-novice/
 Documentation on using the HPC systems: https://docs.hpc.shef.ac.uk/en/latest/hpc/index.html
 
 #### Working off-campus
-To access sharc from off-campus you may need to connect to the University's vpn. 
+To access the HPC from off-campus you may need to connect to the University's vpn. 
 
 Instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
 
@@ -48,22 +48,22 @@ This node is just a gateway to the worker nodes. If you are on a worker node you
 [bo1nn@bessemer-node004 ~]$
 ```
 ***
-#### Accessing reserved training resources on Sharc
+#### Accessing reserved training resources on Bessemer
 ***
 If you find you are waiting a long time for your jobs to start running or to get access to an interactive session you can try the following:
 For interactive sessions
 ```bash
-qrshx -P ngscourse -q ngscourse.q
+srun --account=ngscourse --pty /bin/bash
 ```
 For batch jobs, add the following to the header section of your batch job file
 ```
-#$ -P ngscourse
-#$ -q ngscourse.q
+#!/bin/bash
+#SBATCH --account=ngscourse
 ```
 ***
 #### Important note
 ***
-This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```qrsh```:
+This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```srun --pty bash -l```:
 ```
   Your account is set up to use the Genomics Software Repository
 ```
@@ -87,9 +87,9 @@ echo "Text body" | mail -s "Subject: gemma - hyperparameter plot" -a /data/myuse
 In Linux and Mac, you can use rsync on the terminal. For example, to transfer one of the pdf files or all the results that are generated in this practical, the command would be: 
 ```bash
 # transfer pdf file
-rsync myuser@iceberg.sheffield.ac.uk:/data/myuser/gwas_gemma/output/hyperparameters.pdf ./
+rsync myuser@bessemer.sheffield.ac.uk:/data/myuser/gwas_gemma/output/hyperparameters.pdf ./
 # transfer all results
-rsync -av myuser@iceberg.sheffield.ac.uk:/data/myuser/gwas_gemma/output ./
+rsync -av myuser@bessemer.sheffield.ac.uk:/data/myuser/gwas_gemma/output ./
 ```
 
 Other graphical alternatives are [WinSCP](http://dsavas.staff.shef.ac.uk/software/xconnect/winscp.html), [Filezilla](https://filezilla-project.org/) or [Cyberduck](http://www.macupdate.com/app/mac/8392/cyberduck). You can find more detailed information [here](https://www.sheffield.ac.uk/it-services/research/hpc/using/access).
