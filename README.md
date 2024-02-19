@@ -53,7 +53,7 @@ This node is just a gateway to the worker nodes. If you are on a worker node you
 If you find you are waiting a long time for your jobs to start running or to get access to an interactive session you can try the following:
 For interactive sessions
 ```bash
-srun --account=ngscourse --pty /bin/bash
+srun --account=ngscourse --pty bash -l
 ```
 For batch jobs, add the following to the header section of your batch job file
 ```
