@@ -9,11 +9,11 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 
 | Content | Date | Lead | TAs |
 | ------- | ---- | ---- | --- |
-| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 19/02/2024 | Nicola Nadeau, Alison Wright | Noah Bourne, Cat Collins |
-| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Wed 21/02/2024 | Nicola Nadeau, Alison Wright | Noah Bourne, Cat Collins |
-| [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 23/02/2023  | Nicola Nadeau | Noah Bourne, Cat Collins |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not assessed)  | |  |
-| [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not assessed) | 
+| [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 17/02/2025 | Nicola Nadeau | Noah Bourne, Cat Collins |
+| [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 18/02/2025 | Nicola Nadeau | Noah Bourne, Cat Collins |
+| [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 21/02/2025  | Nicola Nadeau | Noah Bourne, Cat Collins |
+| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not covered or assessed)  | |  |
+| [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not covered or assessed) | 
 
 
 ### General notes
@@ -29,11 +29,11 @@ To access the HPC from off-campus you may need to connect to the University's vp
 Instructions to set up the vpn: https://www.sheffield.ac.uk/it-services/vpn
 
 #### Logging in and getting started
-If you are working on a Windows machine you need to use a program (ssh client) to access the cluster. We will be using MobXterm. Start by opening the program, if you have used it before to connect to sharc you may find "sharc.shef.ac.uk" under "User sessions", in which case you can just double click on this to launch an ssh session on sharc. If not, click on "Session">"New session">"SSH" and enter
+If you are working on a Windows machine For Windows PCs, we recommend the use of Windows Terminal which is available on the University’s managed desktops by default. If not already installed on your device, Windows Terminal can be found on the Microsoft Store. If you are using a different operating system there are instructions [here](https://docs.hpc.shef.ac.uk/en/latest/hpc/connecting.html#suggested-ssh-clients&gsc.tab=0). Start by opening the terminal, then run the following command to log in to bessemer
 ```
-bessemer.shef.ac.uk
+ssh -X YOUR_USERNAME@bessemer.shef.ac.uk
 ```
-specify your username (port should always be 22).
+specify your username. You will then be prompted for dual-factor authentication.
 
 Access a worker node:
 ```bash
