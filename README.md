@@ -82,19 +82,19 @@ cat /shared/genomicsdb2/shared/workshops/January2018/.nanorc >> /home/$USER/.nan
 ***
 #### Note on transferring output files to your local computer for visualization
 ***
-You probably will want to transfer files to your own computer for visualization (especially the images). Perhaps the easiest option is to use [SCP](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html) from the terminal and this is what we will use in the practicals. 
+You probably will want to transfer files to your own computer for visualization (especially the images). Perhaps the easiest option is to use [SCP](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html) from the terminal.
 
 Another possibility is to email the files, for example:
 ```bash
 echo "Text body" | mail -s "Subject: gemma - hyperparameter plot" -a /data/myuser/gwas_gemma/output/hyperparameters.pdf your@email
 ```
 
-In Linux and Mac, you can use rsync on the terminal. For example, to transfer one of the pdf files or all the results that are generated in this practical, the command would be: 
+Perhpas the best option is to use rsync from the terminal and this is what we will use in the practicals. For example, to transfer one of the pdf files or all the results that are generated in this practical, the command would be: 
 ```bash
 # transfer pdf file
-rsync myuser@bessemer.sheffield.ac.uk:/data/myuser/gwas_gemma/output/hyperparameters.pdf ./
+rsync myuser@bessemer.sheffield.ac.uk:/fastdata/myuser/gwas_gemma/output/hyperparameters.pdf ./
 # transfer all results
-rsync -av myuser@bessemer.sheffield.ac.uk:/data/myuser/gwas_gemma/output ./
+rsync -av myuser@bessemer.sheffield.ac.uk:/fastdata/myuser/gwas_gemma/output ./
 ```
 
 Other graphical alternatives are [WinSCP](http://dsavas.staff.shef.ac.uk/software/xconnect/winscp.html), [Filezilla](https://filezilla-project.org/) or [Cyberduck](http://www.macupdate.com/app/mac/8392/cyberduck). You can find more detailed information [here](https://www.sheffield.ac.uk/it-services/research/hpc/using/access).
