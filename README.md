@@ -61,6 +61,12 @@ For batch jobs, add the following to the header section of your batch job file
 #SBATCH --account=ngscourse
 ```
 ***
+#### killing processes and stopping jobs
+***
+To kill a running interactive command: ctrl + C
+
+If you start a job running but find a mistake or decide you want to cancel it, you can cancel jobs with ```scancel job-id```
+***
 #### Important note
 ***
 This tutorial relies on having access to a number of programs. The easiest way is to have your account configured to use the Genomics Software Repository. If that is the case you should see the following message when you get an interactive session with ```srun --pty bash -l```:
@@ -74,10 +80,9 @@ In addition, if you want to configure the ```nano``` text editor to have syntax 
 cat /shared/genomicsdb2/shared/workshops/January2018/.nanorc >> /home/$USER/.nanorc
 ```
 ***
-
 #### Note on transferring output files to your local computer for visualization
 ***
-You probably will want to transfer files to your own computer for visualization (especially the images). If you are working on a windows machine and using MobaXterm then the easiest option is to use the graphical sftp panel on the left, using the icons or dragging and dropping from your computer. 
+You probably will want to transfer files to your own computer for visualization (especially the images). Perhaps the easiest option is to use [SCP](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html) from the terminal and this is what we will use in the practicals. 
 
 Another possibility is to email the files, for example:
 ```bash
