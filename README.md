@@ -82,14 +82,14 @@ cat /shared/genomicsdb2/shared/workshops/January2018/.nanorc >> /home/$USER/.nan
 ***
 #### Note on transferring output files to your local computer for visualization
 ***
-You probably will want to transfer files to your own computer for visualization (especially the images). Perhaps the easiest option is to use [SCP](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html) from the terminal.
+You probably will want to transfer files to your own computer for visualization (especially the images). Perhaps the easiest option is to use [SCP](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html) from the terminal and this is what we will use in the practicals.
 
 Another possibility is to email the files, for example:
 ```bash
 echo "Text body" | mail -s "Subject: gemma - hyperparameter plot" -a /data/myuser/gwas_gemma/output/hyperparameters.pdf your@email
 ```
 
-Perhpas the best option is to use rsync from the terminal and this is what we will use in the practicals. For example, to transfer one of the pdf files or all the results that are generated in this practical, the command would be: 
+Aother option is to use rsync from the terminal. For example, to transfer one of the pdf files or all the results that are generated in this practical, the command would be: 
 ```bash
 # transfer pdf file
 rsync myuser@bessemer.sheffield.ac.uk:/fastdata/myuser/gwas_gemma/output/hyperparameters.pdf ./
