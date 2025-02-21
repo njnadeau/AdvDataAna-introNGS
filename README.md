@@ -12,7 +12,7 @@ The aim of this course is to give an introduction to handling NGS sequence data 
 | [Introduction to the HPC and NGS data](https://github.com/njnadeau/NGScourse/blob/master/day1am.md) | Mon 17/02/2025 | Nicola Nadeau | Noah Bourne, Cat Collins |
 | [Sequence data formats and assessing sequence quality](https://github.com/njnadeau/NGScourse/blob/master/day1lateam.md) | Tues 18/02/2025 | Nicola Nadeau | Noah Bourne, Cat Collins |
 | [Aligning Illumina RNA-seq data](https://github.com/njnadeau/APS-NGS-day1-PM/blob/patch-2/README.md) | Fri 21/02/2025  | Nicola Nadeau | Noah Bourne, Cat Collins |
-| [Differential gene expression analyses](https://github.com/alielw/APS-NGS-day2-PM/blob/master/README.md) | Extension (not covered or assessed)  | |  |
+| [Differential gene expression analyses](https://github.com/njnadeau/APS-NGS-day2-PM) | Extension (not covered or assessed)  | |  |
 | [SNP and genotype calling](https://helenhip.github.io/SNP-and-genotype-calling/) | Extension (not covered or assessed) | 
 
 
